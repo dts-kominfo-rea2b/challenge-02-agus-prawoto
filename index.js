@@ -36,7 +36,7 @@ function lakukanLooping(arrPegawai) {
   let jumlahPria = 0;
   dataYangAkanDilooping.map(pegawai => {
     if (pegawai.jenisKelamin == "M") {
-      jumlahPria++;
+      jumlahPria = jumlahPria + 1;
     }
   });
  
@@ -47,7 +47,7 @@ function lakukanLooping(arrPegawai) {
   let jumlahWanita = 0;
   dataYangAkanDilooping.map(pegawai => {
     if (pegawai.jenisKelamin == "F") {
-      jumlahPria++;
+      jumlahWanita = jumlahWanita + 1;
     }
   });
  
